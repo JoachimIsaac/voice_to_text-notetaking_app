@@ -35,7 +35,7 @@ def record_speech(bottom_button2, file):
             current_file.write(label['text'])
         
         #throws exception if it can't interpret it.     
-        except Exception as e:
+        except Exception as e:   
             label['text'] = "Error : " + str(e)
             current_file.write(label['text'])
 
